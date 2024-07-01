@@ -1,0 +1,51 @@
+[
+	{
+		"Class": [],
+		"User": [],
+		"Salas": [],
+		"_id": "65e2ec5e5baf7f38977e2cdc",
+		"class": [],
+		"likes": [],
+		"salas": [],
+		"image": "https://res.cloudinary.com/dxvasvakp/image/upload/v1709224011/home-story_goailt.jpg",
+		"createdAt": "2024-03-02T09:07:42.229Z",
+		"updatedAt": "2024-03-02T09:07:42.229Z",
+		"__v": 0
+	},
+	{
+		"Class": [],
+		"User": [],
+		"Salas": [],
+		"_id": "65e9d5aec6210cbbcce35d9b",
+		"gender": "otro",
+		"class": [],
+		"user": [],
+		"salas": [],
+		"image": "https://res.cloudinary.com/dxvasvakp/image/upload/v1709224011/home-story_goailt.jpg",
+		"createdAt": "2024-03-07T14:56:46.585Z",
+		"updatedAt": "2024-03-07T14:56:46.585Z",
+		"__v": 0
+	},
+	{
+		"_id": "65e9dafa50b921d4edca577b",
+		"gender": "otro",
+		"Class": [],
+		"User": [],
+		"Salas": [],
+		"image": "https://res.cloudinary.com/dxvasvakp/image/upload/v1709224011/home-story_goailt.jpg",
+		"createdAt": "2024-03-07T15:19:22.387Z",
+		"updatedAt": "2024-03-07T15:19:22.387Z",
+		"__v": 0
+	},
+	{
+		"_id": "65e9db1850b921d4edca577f",
+		"gender": "otro",
+		"Class": [],
+		"User": [],
+		"Salas": [],
+		"image": "https://res.cloudinary.com/dxvasvakp/image/upload/v1709224011/home-story_goailt.jpg",
+		"createdAt": "2024-03-07T15:19:52.468Z",
+		"updatedAt": "2024-03-07T15:19:52.468Z",
+		"__v": 0
+	}
+]

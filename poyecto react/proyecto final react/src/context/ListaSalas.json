@@ -1,0 +1,93 @@
+
+[{
+    "Class": "otra",
+    "_id": "65e0ad84914037c565faafe3",
+    "class": "yoga",
+    "Image": "https://res.cloudinary.com/dxvasvakp/image/upload/v1709145423/51_gNM1DNkL._AC_UF894_1000_QL80__odnt4z.jpg",
+    "createdAt": "2024-02-29T16:15:00.251Z",
+    "updatedAt": "2024-03-08T11:07:24.925Z",
+    "__v": 0,
+    "salas": "primera"
+},
+{
+    "Class": "otra",
+    "_id": "65e0d3eefc4fccf35184db07",
+    "class": [],
+    "Image": "https://res.cloudinary.com/dxvasvakp/image/upload/v1709145423/51_gNM1DNkL._AC_UF894_1000_QL80__odnt4z.jpg",
+    "createdAt": "2024-02-29T18:58:54.289Z",
+    "updatedAt": "2024-03-08T11:08:48.942Z",
+    "__v": 0,
+    "salas": "otra"
+},
+{
+    "Class": "otra",
+    "_id": "65e0e2a260369208790611a5",
+    "class": [],
+    "Image": "https://res.cloudinary.com/dxvasvakp/image/upload/v1709145423/51_gNM1DNkL._AC_UF894_1000_QL80__odnt4z.jpg",
+    "createdAt": "2024-02-29T20:01:38.484Z",
+    "updatedAt": "2024-03-08T19:01:46.785Z",
+    "__v": 0,
+    "salas": "otra"
+},
+{
+    "salas": "otra",
+    "_id": "65e3332d353a51174118ae91",
+    "Image": "https://res.cloudinary.com/dxvasvakp/image/upload/v1709145423/51_gNM1DNkL._AC_UF894_1000_QL80__odnt4z.jpg",
+    "createdAt": "2024-03-02T14:09:49.646Z",
+    "updatedAt": "2024-03-02T14:09:49.646Z",
+    "__v": 0
+},
+{
+    "Class": "otra",
+    "salas": "otra",
+    "_id": "65ea056b6767436064aedff9",
+    "Image": "https://res.cloudinary.com/dxvasvakp/image/upload/v1709145423/51_gNM1DNkL._AC_UF894_1000_QL80__odnt4z.jpg",
+    "createdAt": "2024-03-07T18:20:27.011Z",
+    "updatedAt": "2024-03-07T18:20:27.011Z",
+    "__v": 0
+},
+{
+    "Class": "otra",
+    "salas": "otra",
+    "_id": "65ea101eba6001f03b16deee",
+    "Image": "https://res.cloudinary.com/dxvasvakp/image/upload/v1709145423/51_gNM1DNkL._AC_UF894_1000_QL80__odnt4z.jpg",
+    "createdAt": "2024-03-07T19:06:06.982Z",
+    "updatedAt": "2024-03-07T19:06:06.982Z",
+    "__v": 0
+},
+{
+    "Class": "otra",
+    "salas": "otra",
+    "_id": "65ea1023ba6001f03b16def1",
+    "Image": "https://res.cloudinary.com/dxvasvakp/image/upload/v1709145423/51_gNM1DNkL._AC_UF894_1000_QL80__odnt4z.jpg",
+    "createdAt": "2024-03-07T19:06:11.773Z",
+    "updatedAt": "2024-03-07T19:06:11.773Z",
+    "__v": 0
+},
+{
+    "Class": "otra",
+    "salas": "otra",
+    "_id": "65ea15f33e7a4c2393e507e1",
+    "Image": "https://res.cloudinary.com/dxvasvakp/image/upload/v1709145423/51_gNM1DNkL._AC_UF894_1000_QL80__odnt4z.jpg",
+    "createdAt": "2024-03-07T19:30:59.545Z",
+    "updatedAt": "2024-03-07T19:30:59.545Z",
+    "__v": 0
+},
+{
+    "Class": "otra",
+    "_id": "65ea269afd059fe325e137a6",
+    "class": "otra",
+    "salas": "otra",
+    "createdAt": "2024-03-07T20:42:02.988Z",
+    "updatedAt": "2024-03-07T20:42:02.988Z",
+    "__v": 0
+},
+{
+    "_id": "65f9c25e5b77d43baf92951d",
+    "Class": "otra",
+    "salas": "otra",
+    "createdAt": "2024-03-19T16:50:38.821Z",
+    "updatedAt": "2024-03-19T16:50:38.821Z",
+    "__v": 0
+}
+]

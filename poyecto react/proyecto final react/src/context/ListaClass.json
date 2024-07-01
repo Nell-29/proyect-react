@@ -1,0 +1,211 @@
+[
+	{
+		"user": [],
+		"_id": "65e32d38f164df3e5f259895",
+		"likes": [],
+		"teacher": [],
+		"createdAt": "2024-03-02T13:44:24.175Z",
+		"updatedAt": "2024-03-19T14:08:08.436Z",
+		"__v": 0
+	},
+	{
+		"_id": "65ea15e43e7a4c2393e507de",
+		"dia": "otro",
+		"salas": "otra",
+		"Class": "otra",
+		"teacher": [],
+		"user": [],
+		"createdAt": "2024-03-07T19:30:44.366Z",
+		"updatedAt": "2024-03-07T19:30:44.366Z",
+		"__v": 0
+	},
+	{
+		"_id": "65ea16b91a9510438601cf0c",
+		"dia": "otro",
+		"salas": "otra",
+		"class": "otra",
+		"teacher": [],
+		"user": [],
+		"createdAt": "2024-03-07T19:34:17.865Z",
+		"updatedAt": "2024-03-07T19:34:17.865Z",
+		"__v": 0
+	},
+	{
+		"_id": "65ea16bd1a9510438601cf0f",
+		"dia": "otro",
+		"salas": "otra",
+		"class": "otra",
+		"teacher": [],
+		"user": [],
+		"createdAt": "2024-03-07T19:34:21.369Z",
+		"updatedAt": "2024-03-07T19:34:21.369Z",
+		"__v": 0
+	},
+	{
+		"_id": "65f0459b338a1ee2531e3014",
+		"dia": "otro",
+		"salas": "otra",
+		"clase": "otra",
+		"teacher": [],
+		"user": [],
+		"createdAt": "2024-03-12T12:07:55.414Z",
+		"updatedAt": "2024-03-12T12:07:55.414Z",
+		"__v": 0
+	},
+	{
+		"_id": "65f045a1338a1ee2531e3017",
+		"dia": "otro",
+		"salas": "otra",
+		"clase": "otra",
+		"teacher": [],
+		"user": [],
+		"createdAt": "2024-03-12T12:08:01.403Z",
+		"updatedAt": "2024-03-12T12:08:01.403Z",
+		"__v": 0
+	},
+	{
+		"_id": "65f99b3e7463c9ab98eaca11",
+		"dia": "otro",
+		"salas": "otra",
+		"clase": "otra",
+		"teacher": [],
+		"user": [],
+		"createdAt": "2024-03-19T14:03:42.492Z",
+		"updatedAt": "2024-03-19T14:03:42.492Z",
+		"__v": 0
+	},
+	{
+		"_id": "65f99b407463c9ab98eaca14",
+		"dia": "otro",
+		"salas": "otra",
+		"clase": "otra",
+		"teacher": [],
+		"user": [],
+		"createdAt": "2024-03-19T14:03:44.606Z",
+		"updatedAt": "2024-03-19T14:03:44.606Z",
+		"__v": 0
+	},
+	{
+		"_id": "65f99b437463c9ab98eaca17",
+		"dia": "otro",
+		"salas": "otra",
+		"clase": "otra",
+		"teacher": [],
+		"user": [],
+		"createdAt": "2024-03-19T14:03:47.821Z",
+		"updatedAt": "2024-03-19T14:03:47.821Z",
+		"__v": 0
+	},
+	{
+		"_id": "65f99b447463c9ab98eaca1a",
+		"dia": "otro",
+		"salas": "otra",
+		"clase": "otra",
+		"teacher": [],
+		"user": [],
+		"createdAt": "2024-03-19T14:03:48.997Z",
+		"updatedAt": "2024-03-19T14:03:48.997Z",
+		"__v": 0
+	},
+	{
+		"_id": "65f99b4c7463c9ab98eaca1d",
+		"dia": "otro",
+		"salas": "otra",
+		"clase": "otra",
+		"teacher": [],
+		"user": [],
+		"createdAt": "2024-03-19T14:03:56.353Z",
+		"updatedAt": "2024-03-19T14:03:56.353Z",
+		"__v": 0
+	},
+	{
+		"_id": "65f99b507463c9ab98eaca20",
+		"dia": "otro",
+		"salas": "otra",
+		"clase": "otra",
+		"teacher": [],
+		"user": [],
+		"createdAt": "2024-03-19T14:04:00.192Z",
+		"updatedAt": "2024-03-19T14:04:00.192Z",
+		"__v": 0
+	},
+	{
+		"_id": "65f99bde62cc31f5fad9cd15",
+		"dia": "otro",
+		"salas": "otra",
+		"clase": "otra",
+		"teacher": [],
+		"user": [],
+		"createdAt": "2024-03-19T14:06:22.508Z",
+		"updatedAt": "2024-03-19T14:06:22.508Z",
+		"__v": 0
+	},
+	{
+		"_id": "65f99be362cc31f5fad9cd18",
+		"dia": "otro",
+		"salas": "otra",
+		"clase": "otra",
+		"teacher": [],
+		"user": [],
+		"createdAt": "2024-03-19T14:06:27.830Z",
+		"updatedAt": "2024-03-19T14:06:27.830Z",
+		"__v": 0
+	},
+	{
+		"_id": "65f99bfc62cc31f5fad9cd1b",
+		"dia": "otro",
+		"salas": "otra",
+		"clase": "otra",
+		"teacher": [],
+		"user": [],
+		"createdAt": "2024-03-19T14:06:52.784Z",
+		"updatedAt": "2024-03-19T14:06:52.784Z",
+		"__v": 0
+	},
+	{
+		"_id": "65f99c3262cc31f5fad9cd1f",
+		"dia": "otro",
+		"salas": "otra",
+		"clase": "otra",
+		"teacher": [],
+		"user": [],
+		"createdAt": "2024-03-19T14:07:46.895Z",
+		"updatedAt": "2024-03-19T14:07:46.895Z",
+		"__v": 0
+	},
+	{
+		"_id": "65f99c3662cc31f5fad9cd22",
+		"dia": "otro",
+		"salas": "otra",
+		"clase": "otra",
+		"teacher": [],
+		"user": [],
+		"createdAt": "2024-03-19T14:07:50.116Z",
+		"updatedAt": "2024-03-19T14:07:50.116Z",
+		"__v": 0
+	},
+	{
+		"_id": "65f99d16048b0b88a18cdb2f",
+		"dia": "otro",
+		"salas": "otra",
+		"clase": "otra",
+		"teacher": [],
+		"user": [],
+		"image": "https://res.cloudinary.com/dxvasvakp/image/upload/v1709224011/home-story_goailt.jpg",
+		"createdAt": "2024-03-19T14:11:34.485Z",
+		"updatedAt": "2024-03-19T14:11:34.485Z",
+		"__v": 0
+	},
+	{
+		"_id": "65f99d1c048b0b88a18cdb32",
+		"dia": "otro",
+		"salas": "otra",
+		"clase": "otra",
+		"teacher": [],
+		"user": [],
+		"image": "https://res.cloudinary.com/dxvasvakp/image/upload/v1709224011/home-story_goailt.jpg",
+		"createdAt": "2024-03-19T14:11:40.732Z",
+		"updatedAt": "2024-03-19T14:11:40.732Z",
+		"__v": 0
+	}
+]
