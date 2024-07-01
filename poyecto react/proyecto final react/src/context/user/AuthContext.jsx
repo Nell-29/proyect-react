@@ -1,6 +1,6 @@
 import { CreateContext, UseMemo } from "react";// importamos createContext y useMemo de react.para crear el contexto de autenticación.
 import { UseNavigate } from "react-router-dom";// importamos useNavigate de react-router-dom. para poder navegar entre rutas.
-import { UserLocalStorage } from "../hooks/UserLocalSt";// importamos UserLocalStorage de UserLocalSt para poder guardar el usuario en el local storage.
+import { UserLocalStorage } from "../../hooks/UserLocalSt";// importamos UserLocalStorage de UserLocalSt para poder guardar el usuario en el local storage.
 
 
 export const AuthContext = CreateContext();//creamos el contexto de autenticación.

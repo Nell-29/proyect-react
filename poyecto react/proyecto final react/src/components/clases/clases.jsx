@@ -1,11 +1,11 @@
-import  Class  from "horariosClass.json";
+import  ClassProvider  from "../../context/class/ClassContext";// importamos el proveedor de la clase.
 import Grid from "@material-ui/core/Grid";
 import Container from "@material-ui/core/container"; 
 import { memo } from "react";   
 
 
-const ClassImage = Class.map((Class) => {
-    const image = memo(Class.find(({ id }) => id === Class.id));
+const ClassImage = ClassProvider.map((Class) => {
+    const image = memo(ClassProvider.find(({ id }) => id === ClassProvider.id));
     if (image) {
       Class.images = image.images;
     }
