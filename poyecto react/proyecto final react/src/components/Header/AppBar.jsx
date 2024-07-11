@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */ // Desactivamos la regla de ESLint para la validación de tipos de props en este archivo.
 
 import { UseNavigate } from "react-router-dom";//importamos UseNavigate de react-router-dom para poder navegar entre las rutas.
-import { useAuth } from "../contextos/AuthContext";
+import { useAuth } from "../context/Index.JSX";
 import {  memo } from "react";//importamos useMemo de react para poder usar la función useMemo.
 
 // definimos el componente AppBar, que recibe la llamada por la prop pages.
@@ -34,7 +34,7 @@ export const AppBar =  ({ pages }) => {
         {/* Si el usuario está autenticado, mostramos el botón de iniciar seccion*/}
         {!!user && (
           <button key={"logout"} onClick={logout}>
-            Iniciar sesión
+            cerrar sesión
           </button>
         )}
       </nav>

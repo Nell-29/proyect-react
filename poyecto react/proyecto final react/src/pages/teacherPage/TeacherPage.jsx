@@ -1,6 +1,6 @@
 import {link  } from "react-router-dom";
-import{useTeacher} from "../hooks/useTeacher";
-import { UseAuthook } from "../../hooks/userAut";
+import{useTeacher} from "../hooks/index";
+import { UseAuthook } from "../../hooks/index";
 import React,{useEffect,useState} from "react"; 
 import  axios  from "axios";
 import{useSalas} from "../hooks/UseSalas";

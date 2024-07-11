@@ -1,9 +1,9 @@
-import {useState}from "react";//importamos useState de react para poder usar el estado.
-import { useAuth } from "../../contextos/AuthContext";//importamos useAuth de AuthContext para poder usar la autenticación.
+import {useState}from "react";//importamos useState de react para poder usar el estado.portamos useAuth de AuthContext para poder usar la autenticación.
 import { Link} from "react-router-dom";//importamos Link de react-router-dom para poder navegar entre las rutas.
+import { AuthContext } from "../../context/Index.JSX";//importamos useAuth de AuthContext para poder usar la autenticación.
 
 export const Login = () => {//creamos la función Login, para que el usuario pueda iniciar sesión.
-    const { login } = useAuth();
+    const { login } = AuthContext();
     const[userLogin, setUserLogin] = useState("");
 
     const handleInp = (e) => {//creamos la función handleInp, para que el usuario pueda ingresar su correo y contraseña.

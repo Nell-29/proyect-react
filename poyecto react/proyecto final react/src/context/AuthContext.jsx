@@ -1,6 +1,6 @@
 import { CreateContext, UseMemo } from "react";// importamos createContext y useMemo de react.para crear el contexto de autenticación.
 import { UseNavigate } from "react-router-dom";// importamos useNavigate de react-router-dom. para poder navegar entre rutas.
-import { UserLocalStorage } from "../../hooks/UserLocalSt";// importamos UserLocalStorage de UserLocalSt para poder guardar el usuario en el local storage.
+import { UserLocalStorage } from "../hooks/index";// importamos UserLocalStorage de UserLocalSt para poder guardar el usuario en el local storage.
 
 
 export const AuthContext = CreateContext();//creamos el contexto de autenticación.
@@ -33,11 +33,7 @@ export const AuthProvider = ({ children }) => {
     }),
     [user]//dependencia del usuario.
 );
-return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;//retornamos el proveedor de autenticación.
-};
-
-import PropTypes from 'prop-types'; // Importa PropTypes
-
-AuthProvider.propTypes = {// Define las propiedades del componente
-  children: PropTypes.node.isRequired, // Define la validación para 'children'
+return <AuthContext.Provider value={value}>
+      {children}
+</AuthContext.Provider>;//retornamos el proveedor de autenticación.
 };

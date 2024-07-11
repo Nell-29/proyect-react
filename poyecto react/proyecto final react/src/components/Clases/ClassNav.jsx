@@ -1,4 +1,4 @@
-import  ClassProvider  from "../../context/class/ClassContext";// importamos el proveedor de la clase.
+import  ClassProvider  from "../../context/index";// importamos el proveedor de la clase.
 import Grid from "@material-ui/core/Grid";
 import Container from "@material-ui/core/container"; 
 import { memo } from "react";   
