@@ -1,13 +1,18 @@
+
+
 import {Routes, Route} from 'react-router-dom';
 
-import {LoginPag} from './pages/LoginPage';
+import LoginPage from '../src/pages/LoginPage';
 import {HomePage} from './pages/HomePage';
-import {SingUpPage} from './pages/SingUpPage';
 import {ProfilePage} from './pages/ProfilePage' ;
 import {SettingsPage} from './pages/SettingsPage';
 
 import { PrivetLayout } from './components/PrivetLayout';
-import {HomeLayout} from './components/HomeLayout'; 
+import HomeLayout from '../src/components/HomeLayout';
+import RegisterPage from './pages/RegisterPage';
+import ClassPage from './pages/ClassPage';
+
+
 import './App.css';
 
 function App() {
@@ -15,13 +20,13 @@ function App() {
     <Routes>
       <Route element={<HomeLayout/>}>
         <Route path='/' element={<HomePage/>}/>
-        <Route path='/login' element={<LoginPag/>}/>
-        <Route path='/register' element={<SingUpPage/>}/>
+        <Route path='/login' element={<LoginPage/>}/>
+        <Route path='/register' element={<RegisterPage/>}/>
       </Route>
-
-      <Route path='/dashboard' element={<PrivetLayout/>}>
+        <Route path='/dashboard' element={<PrivetLayout/>}>
         <Route path='profile' element={<ProfilePage/>}/>
         <Route path='settings' element={<SettingsPage/>}/>
+        <Route path='class' element={<ClassPage/>}/>
       </Route>
     </Routes>
   );
