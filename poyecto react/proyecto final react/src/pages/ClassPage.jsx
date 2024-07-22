@@ -1,5 +1,5 @@
 import React,{ useContext, useState} from 'react';//importamos react y useState desde react
-import FormClass from '../components/FormClass'
+import FormClass from '../components/FormClass';
 import { ClassContext } from '../context/ClassContext';//importamos ClassContext desde el archivo ClassContext
 import { Button, Typography, Card, CardContent, CardActions, Grid,Snackbar } from '@mui/material';
 import MuiAlert from '@mui/material/Alert';
@@ -10,7 +10,7 @@ const Alert = React.forwardRef(function Alert(props, ref) {
 
 
 const ClassPage = () => {//creamos la funcion ClassPage
-    const {classes,deleteClass} = useContext(ClassContext);//creamos la constante clase y le asignamos el valor de useContext
+    const {classes,addClass,updateClass,deleteClass} = useContext(ClassContext);//creamos la constante clase y le asignamos el valor de useContext
     const [showForm, setShowForm] = useState(false);//creamos la constante openForm y le asignamos el valor de useState
     const [selectedClass, setSelectedClass] = useState(null);//creamos la constante selectedClass y le asignamos el valor de useState
     const [notification, setNotification] = useState({ open: false, message: '', severity: 'success' });
@@ -26,9 +26,27 @@ const ClassPage = () => {//creamos la funcion ClassPage
     };
     const handleDelete = (classId) => {
         deleteClass(classId);
-        setNotification({ open: true, message: 'Class deleted successfully!', severity: 'success' });
+        setNotification({ open: true, message: 'Clase eliminida correctamente!', severity: 'success' });
     };
 
+    const handleSaveClass = async (classItem) => {
+       try{
+        if(classItem._id) {
+            await updateClass(classItem._id,classItem);
+            setNotification({open:true, message:'clase modificada con exito', severity:'success'});
+        } else {
+            await addClass(classItem);
+            setNotification({ open: true, message: 'Class added successfully!', severity: 'success' });
+        }
+                handleCloseForm();
+    } catch (error) {
+        if (error.response && error.response.status === 409) {
+            setNotification({ open: true, message:error.response.data.message || 'Conflict: Class already exists or there is a conflict with the data.', severity: 'error' });
+        } else {
+            setNotification({ open: true, message: 'An error occurred while saving the class.', severity: 'error' });
+        }
+    }
+};
     const handleCloseNotification = () => {
         setNotification({ ...notification, open: false });
     };
@@ -71,7 +89,7 @@ const ClassPage = () => {//creamos la funcion ClassPage
             </Grid>
             {showForm && (
                 <div style={{ marginTop: '20px' }}>
-                    <FormClass classItem={selectedClass} handleCloseForm={handleCloseForm} />
+                    <FormClass classItem={selectedClass} handleSaveClass={handleSaveClass} handleCloseForm={handleCloseForm} />
                 </div>
             )}
             <Snackbar open={notification.open} autoHideDuration={6000} onClose={handleCloseNotification}>
